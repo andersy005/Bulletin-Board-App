@@ -1,0 +1,37 @@
+{
+  "name": "bulletin-board",
+  "version": "1.0.0",
+  "description": "A ReactJs application",
+  "main": "Note.js",
+  "scripts": {
+    "build": "babel js -d built",
+    "start": "open http://localhost:8000 & httpster -p 8000"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersy005/Bulletin-Board-App.git"
+  },
+  "keywords": [
+    "ReactJs",
+    "App",
+    "bulletin-board"
+  ],
+  "author": "Anderson Banihirwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersy005/Bulletin-Board-App/issues"
+  },
+  "homepage": "https://github.com/andersy005/Bulletin-Board-App#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
